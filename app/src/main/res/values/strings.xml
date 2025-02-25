@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MyTrips</string>
+    <string name="string_user_login">Login</string>
+    <string name="text_login">Please sign in to continue.</string>
+    <string name="email">E-mail</string>
+    <string name="password">Password</string>
+    <string name="sign_in">SIGN IN</string>
+    <string name="account">Don\'t have an account?</string>
+    <string name="sign_up">Sign up</string>
+</resources>
