@@ -135,7 +135,8 @@ fun TelaInicial(modifier: Modifier = Modifier) {
                         .padding(bottom = 15.dp),
                     colors = ButtonDefaults.buttonColors(
                         containerColor = Color(0xFFD42CF1)
-                    )
+                    ),
+                    shape = RoundedCornerShape(10.dp)
                 ) {
                     Text(
                         text = stringResource(br.senai.sp.jandira.mytrips.R.string.sign_in),
@@ -162,6 +163,7 @@ fun TelaInicial(modifier: Modifier = Modifier) {
                     Text(
                         text = stringResource(br.senai.sp.jandira.mytrips.R.string.sign_up),
                         fontSize = 15.sp,
+                        fontWeight = FontWeight.Bold,
                         color = Color(0xFFD42CF1)
                     )
                 }
